@@ -1,0 +1,100 @@
+.container {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.inp {
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.inp:focus {
+  border: 2px solid #4a90e2;
+}
+
+.btn {
+  transition: all 0.5s ease;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: rgb(255, 173, 20);
+  cursor: pointer;}
+
+.btn-2 {
+  background-color: rgb(124, 118, 245);
+  font-size: 10px;
+  color: aliceblue;
+  width: 70%;
+  padding: 8px 20px;
+  border-radius: 5px;
+}
+
+.btn-2:hover {
+  background-color: rgb(145, 139, 253);
+  cursor: pointer;
+}
+
+
+
+hr {
+  color: black;
+  width: 80%;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 70%;
+  flex-wrap: wrap;
+}
+
+li {
+  list-style: none;
+  background-color: aquamarine;
+  padding: 15px;
+  height: 50px;
+  width: 150px;
+  color: black;
+  font-weight: 500;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+
+.checkbox {
+  width: 20px;
+}
+
+.showtodo {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn3{
+  padding: 12px 15px;
+  background-color: rgb(142, 103, 103);
+  color: whitesmoke;
+  position: relative;
+  left: 1.8%;
+  /* font-size: 12px; */
+  
+}
+
+
